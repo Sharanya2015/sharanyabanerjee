@@ -232,7 +232,7 @@ p {
 /* Hero Section */
 
 #hero {
-    background-image: url(./img/asulibrary.jpg);
+    background-image: url(./img/asucampus.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -249,7 +249,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.35;
+    opacity: 0.55;
     z-index: -1;
 }
 
