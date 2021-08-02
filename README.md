@@ -1,5 +1,5 @@
 # sharanyabanerjee
-Portfolio Website Ver 1
+Portfolio Website Ver w
 
 Hello viewer, my name is Sharanya Banerjee. I am a graduate student at Arizona State University, Tempe. 
 This is the repository to my portfolio website. It has been made using HTML, CSS and Vanilla JS. 
