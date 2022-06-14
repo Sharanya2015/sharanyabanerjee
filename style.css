@@ -232,7 +232,7 @@ p {
 /* Hero Section */
 
 #hero {
-    background-image: url(./img/asucampus.jpg);
+    background-image: url(./img/Phoenix.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -249,7 +249,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.50;
+    opacity: 0.65;
     z-index: -1;
 }
 
