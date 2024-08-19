@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio Website</title>
 </head>
-
 <body>
     <!-- Header -->
     <section id="header">
@@ -24,7 +22,7 @@
                     </div>
                     <ul>
                         <li><a href="#hero" data-after="Home"><b>Home</b></a></li>
-                        <li><a href="#skills" data-after="skill"><b>Education</b></a></li>
+                        <li><a href="#skills" data-after="Education"><b>Education</b></a></li>
                         <li><a href="#projects" data-after="Projects"><b>Projects</b></a></li>
                         <li><a href="#about" data-after="About"><b>About</b></a></li>
                         <li><a href="#contact" data-after="Contact"><b>Contact</b></a></li>
@@ -35,54 +33,97 @@
     </section>
     <!-- End Header -->
 
-
-    <!-- Hero Section  -->
+    <!-- Hero Section -->
     <section id="hero">
         <div class="hero container">
             <div>
                 <h1>Hello, <span></span></h1>
                 <h1>My Name is <span></span></h1>
                 <h1>Sharanya! <span></span></h1>
-                <a href="#about" type="button" class="cta">Portfolio</a>
+                <a href="#about" class="cta">Portfolio</a>
             </div>
         </div>
     </section>
-    <!-- End Hero Section  -->
+    <!-- End Hero Section -->
 
-    <!-- skill/education Section -->
+    <!-- Skills/Education Section -->
     <section id="skills">
         <div class="skills container">
             <div class="skill-top">
                 <h1 class="section-title">Educ<span>a</span>tion</h1>
-                <!-- Enter quote here -->
             </div>
             <div class="skill-bottom">
                 <div class="skill-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" alt="School Icon"/></div>
                     <h2>Graduate</h2>
-                    <p> <b>MASTER OF SCIENCE</b> <br> Computer Science (Big Data Concentration) <br> Arizona State University, Tempe <br> GPA: 3.8/4.0 </p>
+                    <p><b>MASTER OF SCIENCE</b><br>Computer Science (Big Data Concentration)<br>Arizona State University, Tempe<br>GPA: 3.8/4.0</p>
                 </div>
                 <div class="skill-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" alt="School Icon"/></div>
                     <h2>Undergraduate</h2>
-                    <p><b>BACHELOR OF TECHNOLOGY</b> <br> Computer Science<br> SRM Institute of Science and Technology, Kattankulathur <br> GPA: 4.0/4.0 </p>
+                    <p><b>BACHELOR OF TECHNOLOGY</b><br>Computer Science<br>SRM Institute of Science and Technology, Kattankulathur<br>GPA: 4.0/4.0</p>
                 </div>
                 <div class="skill-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" alt="School Icon"/></div>
                     <h2>High School</h2>
-                    <p><b>CISCE BOARD</b> <br> La Martiniere for Boys, Kolkata <br> ICSE Exam [10th]: 95.0% <br> ISC Exam [12th]: 95.5% <br> Kolkata, WB, India </p>
+                    <p><b>CISCE BOARD</b><br>La Martiniere for Boys, Kolkata<br>ICSE Exam [10th]: 95.0%<br>ISC Exam [12th]: 95.5%<br>Kolkata, WB, India</p>
                 </div>
                 <div class="skill-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/school.png" alt="School Icon"/></div>
                     <h2>Certifications</h2>
-                    <p> <a href=https://credentials.edx.org/credentials/7d287f860845421da253c43be58764e7/ target="_blank">Blockchain for Business: The Linux Foundation [Professional Certification] </a> <br> <a href=https://courses.edx.org/certificates/0082ea4d731c4eac82be62401627b102
-                            target="_blank"> Data Science - R Basics: HarvardX </a> <br> <a href=https://www.coursera.org/account/accomplishments/certificate/WHCV6GN328RU target="_blank"> OOP in Java: UCSanDiego </a> 
+                    <p>
+                        <a href="https://credentials.edx.org/credentials/7d287f860845421da253c43be58764e7/" target="_blank" rel="noopener noreferrer">Blockchain for Business: The Linux Foundation [Professional Certification]</a><br>
+                        <a href="https://courses.edx.org/certificates/0082ea4d731c4eac82be62401627b102" target="_blank" rel="noopener noreferrer">Data Science - R Basics: HarvardX</a><br>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/WHCV6GN328RU" target="_blank" rel="noopener noreferrer">OOP in Java: UCSanDiego</a>
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End skill Section -->
+    <!-- End Skills Section -->
+
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+    <div class="work-experience container">
+        <div class="work-top">
+            <h1 class="section-title">Work <span>Experience</span></h1>
+        </div>
+        <div class="work-bottom">
+            <div class="work-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/work.png" alt="Work Icon"/></div>
+                <h2>Lumen Technologies</h2>
+                <p><b>DevOps Engineer II</b><br>Network Transformation and Service Assurance<br>Aug 2022 – Present</p>
+                <ul>
+                    <li>Architected and developed the Stella chatbot, cutting network diagnostics time by 85%!</li>
+                    <li>Created a Microsoft Teams bot that increased team productivity by 35%.</li>
+                    <li>Engineered full-stack functionalities to suppress network device alarms, optimizing alert management by 45%.</li>
+                    <li>Designed a jQuery front-end for a scheduling application, minimizing scheduling conflicts by 45%.</li>
+                    <li>Orchestrated automation tasks with Ansible and Python, achieving 90% time savings!</li>
+                    <li>Developed REST and FAST APIs for networking platforms, contributing to $70 million in cost savings YTD.</li>
+                    <li>Mentored interns, increasing project delivery efficiency by 40% and achieving 100% intern conversion to full-time!</li>
+                </ul>
+            </div>
+            <div class="work-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/work.png" alt="Work Icon"/></div>
+                <h2>Lumen Technologies</h2>
+                <p><b>DevOps Intern</b><br>Network Transformation and Service Assurance<br>Jun 2022 – Aug 2022</p>
+                <ul>
+                    <li>Implemented a monitoring system for CDN peering link saturation, streamlining load-balancing by 40%.</li>
+                    <li>Optimized over 50 automations on Itential to track cost-saving metrics in an AGILE environment.</li>
+                </ul>
+            </div>
+            <div class="work-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/work.png" alt="Work Icon"/></div>
+                <h2>EdPlus at ASU</h2>
+                <p><b>Instructional Design Assistant</b><br>Quality Assurance Team<br>Jan 2021 – May 2022</p>
+                <ul>
+                    <li>Applied Canvas LMS templates to over 200 courses, enhancing the learning experience for 80,000+ students.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- End Work Experience Section -->
 
     <!-- Projects Section -->
     <section id="projects">
@@ -94,71 +135,56 @@
                 <div class="project-item">
                     <div class="project-info">
                         <h1>STOCK PREDICTION MODEL</h1>
-                        <h2><i>Published in International Journal for Innovative Technology and Exploring Engineering, June 2020.</i></h2> <br>
-                        <p>The Stock Market is a challenging forum for investment. This project aims at processing large volumes of data and running comprehensive regression algorithms on the dataset; that will predict the future value of a stock. The purpose
-                            of this paper is to analyze the shortcomings of the current system and building a time-series model that would mitigate most of them. Using this model, anyone can monitor the preferred stock that they want to invest in; and
-                            maximize profit by purchasing volume at the lowest price and liquidating the stock when it’s at its highest. <br>
-                            <a href=http://www.ijitee.org/wp-content/uploads/papers/v9i9/I7642079920.pdf target="_blank"><b>CLICK ON THIS LINK TO DOWNLOAD PAPER</b></a> </p>
+                        <h2><i>Published in International Journal for Innovative Technology and Exploring Engineering, June 2020.</i></h2>
+                        <p>The Stock Market is a challenging forum for investment. This project aims at processing large volumes of data and running comprehensive regression algorithms on the dataset to predict the future value of a stock. The purpose of this paper is to analyze the shortcomings of the current system and build a time-series model that would mitigate most of them. Using this model, anyone can monitor the preferred stock that they want to invest in and maximize profit by purchasing volume at the lowest price and liquidating the stock when it’s at its highest.<br>
+                        <a href="http://www.ijitee.org/wp-content/uploads/papers/v9i9/I7642079920.pdf" target="_blank" rel="noopener noreferrer"><b>CLICK ON THIS LINK TO DOWNLOAD PAPER</b></a></p>
                     </div>
                     <div class="project-img">
-                        <img src="./img/stock.png" alt="img">
+                        <img src="./img/stock.png" alt="Stock Prediction Model">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>MONTAGE WIZARD</h1>
-                        <h2><i>Cloud-enabled montage generator using Twitch API and EasyOCR.</i></h2> <br>
-                        <p>Twitch is one of the leading live-streaming platforms for E-Sports today. In a week around 70-80 hours of gameplay per streamer is
-streamed and uploaded on Twitch. Since the average attention span of a viewer is not more than a
-couple minutes, the streamer needs to spend hours on end editing and clipping his videos. These clips are
-called Montages and include game highlights like high intensity battles, and clutch plays. Using Twitch API to source videos and EasyOCR to identify target montages, GAE-enabled Montage Wizard helps to automate this process, thereby conserving precious time and resources. <br> <br>
-                            <a href=https://github.com/Sharanya2015/Montage-Wizard target="_blank"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a>
-                        </p>
+                        <h2><i>Cloud-enabled montage generator using Twitch API and EasyOCR.</i></h2>
+                        <p>Twitch is one of the leading live-streaming platforms for E-Sports today. In a week around 70-80 hours of gameplay per streamer is streamed and uploaded on Twitch. Since the average attention span of a viewer is not more than a couple of minutes, the streamer needs to spend hours on end editing and clipping his videos. These clips are called Montages and include game highlights like high-intensity battles and clutch plays. Using Twitch API to source videos and EasyOCR to identify target montages, GAE-enabled Montage Wizard helps to automate this process, thereby conserving precious time and resources.<br>
+                        <a href="https://github.com/Sharanya2015/Montage-Wizard" target="_blank" rel="noopener noreferrer"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a></p>
                     </div>
                     <div class="project-img">
-                        <img src="./img/twitchapi.jpg" alt="img">
+                        <img src="./img/twitchapi.jpg" alt="Montage Wizard">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>AWS IMAGE CLASSIFIER</h1>
-                        <h2><i>ML based Image Classification system deployed on AWS[IAAS].</i></h2> <br>
-                        <p> Led the design, implementation, and testing of an AWS auto-scalable cloud application that does MNIST image classification and provides results through real-time web-sockets (Socket.io) utilizing AWS S3, SQS, EC2, HTML, CSS, JavaScript, Bootstrap, Python, Flask, and other technologies.  The ML based image classifier processes thousands of images and returns the result as a tuple (Filename, Classification),
-displaying results as they are calculated by the different EC2 instances. Depending on the traffic
-of incoming user requests, the system is able to autoscale the number of app tier
-instances. This gives us hands-on experience on AWS EC2, SQS and S3. <br> <br>
-                            <a href=https://github.com/Sharanya2015/AWS-Image-Classifier target="_blank"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a>
-                        </p>
+                        <h2><i>ML based Image Classification system deployed on AWS [IAAS].</i></h2>
+                        <p>Led the design, implementation, and testing of an AWS auto-scalable cloud application that does MNIST image classification and provides results through real-time web-sockets (Socket.io) utilizing AWS S3, SQS, EC2, HTML, CSS, JavaScript, Bootstrap, Python, Flask, and other technologies. The ML-based image classifier processes thousands of images and returns the result as a tuple (Filename, Classification), displaying results as they are calculated by the different EC2 instances. Depending on the traffic of incoming user requests, the system is able to autoscale the number of app tier instances.<br>
+                        <a href="https://github.com/Sharanya2015/AWS-Image-Classifier" target="_blank" rel="noopener noreferrer"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a></p>
                     </div>
                     <div class="project-img">
-                        <img src="./img/cloudchip.jpg" alt="img">
+                        <img src="./img/cloudchip.jpg" alt="AWS Image Classifier">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>RECOMMENDATION ENGINE</h1>
-                        <h2><i>A comparative study in Collaborative Filtering using Matrix Factorization and KNN on Movie Data.</i></h2> <br>
-                        <p>With the advent of Machine Learning, OTT platforms can accurately recommend movies to watch, based on our watching habits. This project aims to compare such recommendation engines using Collaborative Filtering: Matrix Factorization and Item-based KNN, and test it on the 20M MovieLens dataset to predict users' movies to watch. This study infered that systems built on a Matrix Factorization engine have a lower error rate than KNN based engines. 
- <br> <br>
-                        <a href=https://github.com/Sharanya2015/Movie_Recommender_System target="_blank"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a>
-                        </p>
+                        <h2><i>A comparative study in Collaborative Filtering using Matrix Factorization and KNN on Movie Data.</i></h2>
+                        <p>With the advent of Machine Learning, OTT platforms can accurately recommend movies to watch based on our watching habits. This project aims to compare such recommendation engines using Collaborative Filtering: Matrix Factorization and Item-based KNN, and test it on the 20M MovieLens dataset to predict users' movies to watch. This study inferred that systems built on a Matrix Factorization engine have a lower error rate than KNN based engines.<br>
+                        <a href="https://github.com/Sharanya2015/Movie_Recommender_System" target="_blank" rel="noopener noreferrer"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a></p>
                     </div>
                     <div class="project-img">
-                        <img src="./img/netflix.jpeg" alt="img">
+                        <img src="./img/netflix.jpeg" alt="Recommendation Engine">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>RDF DATABASE IMPLEMENTATION</h1>
-                        <h2><i>Converting Minibase from a RDBMS architecture into RDF (NoSQL) architecture</i></h2> <br>
-                        <p>This system has been developed in 3 phases by our project group. In the 1st phase, we ran a few tests on the MiniBase architecture. In the 2nd phase, we
-modifed the underlying structure ofrom Tuples to Quadruples (Object-Relational). We also incorporated a few functions into this architecture, namely: BatchInsert, Query and Report. In the final phase, we
-implemented Sort-Merge join functionality into our RDF Database. More information may be found by clicking the link below.<br> <br>
-                        <a href=https://github.com/Sharanya2015/RDF_Database_Minibase target="_blank"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a>
-                        </p>
+                        <h2><i>Converting Minibase from a RDBMS architecture into RDF (NoSQL) architecture.</i></h2>
+                        <p>This system has been developed in 3 phases by our project group. In the 1st phase, we ran a few tests on the MiniBase architecture. In the 2nd phase, we modified the underlying structure from Tuples to Quadruples (Object-Relational). We also incorporated a few functions into this architecture, namely: BatchInsert, Query, and Report. In the final phase, we implemented Sort-Merge join functionality into our RDF Database.<br>
+                        <a href="https://github.com/Sharanya2015/RDF_Database_Minibase" target="_blank" rel="noopener noreferrer"><b>CLICK ON THIS LINK TO VIEW GITHUB REPOSITORY</b></a></p>
                     </div>
                     <div class="project-img">
-                        <img src="./img/database.png" alt="img">
+                        <img src="./img/database.png" alt="RDF Database Implementation">
                     </div>
                 </div>
             </div>
@@ -171,14 +197,18 @@ implemented Sort-Merge join functionality into our RDF Database. More informatio
         <div class="about container">
             <div class="col-left">
                 <div class="about-img">
-                    <img src="./img/Lumen_Photo_1.jpeg" alt="img">
+                    <img src="./img/Lumen_Photo_1.jpeg" alt="About Me">
                 </div>
             </div>
             <div class="col-right">
                 <h1 class="section-title">About <span>me</span></h1>
-                <h2> <b> GRADUATE STUDENT | NETWORK OPERATIONS ENGINEER </b> </h2>
-                <p> <br> I am a hard-working individual with proven leadership and organizational skills, and minute attention to detail. Starting Spring 2021, I have embarked upon a new chapter at Arizona State University with an aspiration to earn a Master's degree in Computer Science with a major in Big Data Systems. I am also currently working with the very talented people at Lumen Technologies as a Network Operations Engineer Intern in their Service Assurance Transformation team in Tempe, AZ. My work mostly revolves around Devops and RPA with technologies like Spring, Python, JAVA, REST APIs and Itential. I am a petrolhead and will mostly be found on Sundays, driving around town to the serene lakeside in late evenings. I am also an avid sports follower and poker player. </p>
-                <a href="https://drive.google.com/file/d/1fVvnzdL6TNfwVezgpJeaWkM9UtXvEpu_/view?usp=sharing" target="_blank" class="cta">View Resume</a>
+                <h2><b>GRADUATE STUDENT | NETWORK OPERATIONS ENGINEER</b></h2>
+                <p>🌟 Hey there! I’m a passionate go-getter with a knack for leadership and a keen eye for detail. Since Spring 2021, I’ve been on an exciting adventure at Arizona State University, where I’m diving headfirst into the world of Computer Science, specializing in Big Data Systems. 🚀 
+ 
+                    By day, I’m lucky enough to collaborate with an amazing team at Lumen Technologies as a Network Operations Engineer 2 in the vibrant Service Assurance Transformation team right here in sunny Tempe, AZ! My daily grind is all about DevOps, Network Automation, and having a blast tinkering with chat ops and GPTs. 💻✨ 
+                     
+                    When I’m not immersed in tech, you’ll find me revving up my FL5 Civic Type R, cruising to the peaceful lakeside on Sundays, soaking in the beauty of the open road. 🚗💨 I’m also a die-hard soccer fan and love hitting the poker table for some friendly competition. Let’s connect and share some good vibes! 🎉⚽️🃏</p>
+                <a href="https://drive.google.com/file/d/1qb0agedNt_R7NRmCZp-aukx1vve5E-Fs/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cta">View Resume</a>
             </div>
         </div>
     </section>
@@ -192,21 +222,21 @@ implemented Sort-Merge join functionality into our RDF Database. More informatio
             </div>
             <div class="contact-items">
                 <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="Phone Icon"/></div>
                     <div class="contact-info">
                         <h1>Phone</h1>
                         <h2>+1 (480) 584 2200</h2>
                     </div>
                 </div>
                 <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="Email Icon"/></div>
                     <div class="contact-info">
                         <h1>Email</h1>
-                        <h2><a href="mailto:sbaner67@asu.edu">sbaner67@asu.edu</a></h2>
+                        <h2><a href="mailto:sharanya.banerjee2015@gmail.com">sharanya.banerjee2015@gmail.com</a></h2>
                     </div>
                 </div>
                 <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="Address Icon"/></div>
                     <div class="contact-info">
                         <h1>Address</h1>
                         <h2>Tempe, Arizona</h2>
@@ -226,22 +256,22 @@ implemented Sort-Merge join functionality into our RDF Database. More informatio
             <h2><!-- Enter quote here --></h2>
             <div class="social-icon">
                 <div class="social-item">
-                    <a href="https://www.facebook.com/sharanya.banerjee.1/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                    <a href="https://www.facebook.com/sharanya.banerjee.1/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook"/></a>
                 </div>
                 <div class="social-item">
-                    <a href="https://github.com/Sharanya2015" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
+                    <a href="https://github.com/Sharanya2015" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="GitHub"/></a>
                 </div>
                 <div class="social-item">
-                    <a href="https://www.linkedin.com/in/sharanya2015/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+                    <a href="https://www.linkedin.com/in/sharanya2015/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="LinkedIn"/></a>
                 </div>
             </div>
-            <p>Copyright © 2020 Sharanya. All rights reserved. </p>
-            <p>The things mentioned here are true to the best of my knowledge. </p>
+            <p>Copyright © 2020 Sharanya. All rights reserved.</p>
+            <p>The things mentioned here are true to the best of my knowledge.</p>
             <p>Image Source: Google Images</p>
         </div>
     </section>
     <!-- End Footer -->
+
     <script src="./app.js"></script>
 </body>
-
 </html>
